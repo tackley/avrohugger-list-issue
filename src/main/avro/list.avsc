@@ -1,0 +1,11 @@
+{
+  "type" : "record",
+  "name" : "Event",
+  "namespace" : "net.tackley.example",
+  "fields" : [
+    {
+      "name": "someArray",
+      "type": { "type": "array", "items": "string" }
+    }
+  ]
+}
